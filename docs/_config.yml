@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
-title: template_data_repo
-description: Standardised template for mysociety data repositories
+title: motion-cluster-analysis
+description: Cluster votes based on gov/opp
 
-baseurl: "/template_data_repo"
+baseurl: "/motion-cluster-analysis"
 url: "https://pages.mysociety.org"
 
 collections:

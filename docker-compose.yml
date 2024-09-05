@@ -1,9 +1,9 @@
 services:
   app:
-    image: mysociety/template_data_repo:${TAG:-latest}
+    image: mysociety/motion-cluster-analysis:${TAG:-latest}
     build:
       context: .
       dockerfile: Dockerfile
-    working_dir: /workspaces/template_data_repo      
+    working_dir: /workspaces/motion_cluster_analysis      
     volumes:
-      - ./:/workspaces/template_data_repo/
+      - ./:/workspaces/motion_cluster_analysis/
